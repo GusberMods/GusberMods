@@ -17,7 +17,7 @@ from datetime import datetime
 # CONFIGURACIÓN
 # =====================================
 
-TOKEN = "8975072389:AAFAVO8DzTQfcP8EqJeVL9J2V-H2cz0bjgE"
+TOKEN = os.getenv("BOT_TOKEN")
 
 ADMIN_ID = 8979299763
 
