@@ -3238,6 +3238,21 @@ def main():
 
 
 
-if __name__=="__main__":
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import os
 
-    main()
+class Servidor(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Bot funcionando")
+
+def iniciar_servidor():
+    puerto = int(os.environ.get("PORT", 10000))
+    servidor = HTTPServer(("0.0.0.0", puerto), Servidor)
+    servidor.serve_forever()
+
+if __name__ == "__main__":
+    threading.Thread(target=iniciar_servidor, daemon=True).start()
+    principal()
