@@ -3255,4 +3255,4 @@ def iniciar_servidor():
 
 if __name__ == "__main__":
     threading.Thread(target=iniciar_servidor, daemon=True).start()
-    principal()
+    main()
