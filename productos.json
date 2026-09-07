@@ -1,0 +1,58 @@
+{
+    "PROXI MENU": {
+        "KEY 1 DIA": 1,
+        "KEY 10 DIAS": 5
+    },
+    "DRIP CLIENT": {
+        "KEY 1 DIA": 1,
+        "KEY 3 DIAS": 2.5,
+        "KEY 7 DIAS": 5,
+        "KEY 30 DIAS": 9
+    },
+    "MONITE CHEATS": {
+        "KEY 30 DIAS": 20
+    },
+    "AIMKILL": {
+        "KEY 1 DIA": 1,
+        "KEY 7 DIAS": 4,
+        "KEY 30 DIAS": 9
+    },
+    "PROXI POTATSO": {
+        "KEY 1 DIA": 3,
+        "KEY 7 DIAS": 6,
+        "KEY 30 DIAS": 10
+    },
+    "PROXI ANDROID": {
+        "KEY 1 DIA": 1,
+        "KEY 3 DIAS": 2.5,
+        "KEY 7 DIAS": 5,
+        "KEY 30 DIAS": 9
+    },
+    "HG CHEATS": {
+        "KEY 1 DIA": 1,
+        "KEY 10 DIAS": 5,
+        "KEY 30 DIAS": 9
+    },
+    "FLOURITE": {
+        "KEY 1 DIA": 7,
+        "KEY 7 DIAS": 17,
+        "KEY 30 DIAS": 27
+    },
+    "CERTIFICADO IPHONE": {
+        "360 DIAS": 7
+    },
+    "CUBAN MODS": {
+        "KEY 1 DIA": 1,
+        "KEY 7 DIAS": 5,
+        "KEY 30 DIAS": 9
+    },
+    "PATO TEAM": {
+        "KEY 3 DIAS": 3,
+        "KEY 7 DIAS": 5,
+        "KEY 15 DIAS": 9,
+        "KEY 30 DIAS": 12
+    },
+    "BYPASS UID": {
+        "ILIMITADO": 27
+    }
+}

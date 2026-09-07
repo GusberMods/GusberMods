@@ -1,0 +1,27 @@
+{
+    "Gusber Mods": [
+        {
+            "producto": "PROXI MENU",
+            "plan": "KEY 10 DIAS",
+            "precio": 5,
+            "key": "...",
+            "fecha": "06/09/2026"
+        },
+        {
+            "producto": "PROXI POTATSO",
+            "plan": "KEY 1 DIA",
+            "precio": 3,
+            "key": "KEY_PROXI_POTATSO_KEY_1_DIA_002",
+            "fecha": "06/09/2026"
+        },
+        {
+            "producto": "PROXI POTATSO",
+            "plan": "KEY 7 DIAS",
+            "precio": 6,
+            "key": "KEY_PROXI_POTATSO_KEY_7_DIAS_001",
+            "fecha": "06/09/2026"
+        }
+    ],
+    "Jose": [],
+    "..": []
+}
