@@ -871,8 +871,8 @@ async def recibir_texto(update: Update, context: ContextTypes.DEFAULT_TYPE):
             mensaje = (
                 "✅ SALDO AGREGADO CORRECTAMENTE\n\n"
                 f"👤 Usuario: {usuario}\n"
-                f"💰 Saldo agregado: {monto} USD\n"
-                f"💵 Saldo actual: {saldo_actual} USD"
+                f"💰 Saldo agregado: {monto:.2f} USD\n"
+                f"💵 Saldo actual: {saldo_actual:.2f} USD"
             )
 
 
@@ -894,8 +894,8 @@ async def recibir_texto(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 mensaje = (
                     "✅ SALDO DESCONTADO CORRECTAMENTE\n\n"
                     f"👤 Usuario: {usuario}\n"
-                    f"💰 Saldo descontado: {monto} USD\n"
-                    f"💵 Saldo actual: {saldo_actual} USD"
+                    f"💰 Saldo descontado: {monto:.2f} USD\n"
+                    f"💵 Saldo actual: {saldo_actual:.2f} USD"
                 )
 
             else:
@@ -1068,7 +1068,7 @@ async def mostrar_menu(update,context):
     "👑 BIENVENIDO A GUSBER MODS\n"
     "        Tu mejor opción ❤️\n\n"
     f"👤 Usuario: {usuario}\n\n"
-    f"💰 Saldo actual: {saldo_usuario(usuario)} USD",
+    f"💰 Saldo actual: {saldo_usuario(usuario):.2f} USD",
     reply_markup=InlineKeyboardMarkup(botones)
 )
 
@@ -1108,7 +1108,7 @@ async def mostrar_perfil(query, usuario):
     texto = (
         "👤 PERFIL\n\n"
         f"👤 Usuario: {usuario}\n"
-        f"💰 Saldo actual: {saldo_usuario(usuario)} USD\n"
+        f"💰 Saldo actual: {saldo_usuario(usuario):.2f} USD\n"
         f"📅 Registro: {fecha_registro}\n"
         f"🔄 Recargas: {len(recargas_usuario)}\n"
         f"🛒 Compras: {len(compras_usuario)}"
