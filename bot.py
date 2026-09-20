@@ -3203,6 +3203,8 @@ async def mostrar_historial_usuario(query, usuario):
 
 def main():
 
+    print("NUEVA VERSION")
+
     app=Application.builder().token(TOKEN).build()
 
 
